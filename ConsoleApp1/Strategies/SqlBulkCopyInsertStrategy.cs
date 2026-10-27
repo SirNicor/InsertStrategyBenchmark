@@ -1,6 +1,6 @@
 ﻿namespace Runner;
 
-public class SelBulkCopyInsertStrategy
+public class SqlBulkCopyInsertStrategy
 {
     
 }

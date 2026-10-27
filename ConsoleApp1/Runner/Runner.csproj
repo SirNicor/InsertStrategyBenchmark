@@ -9,6 +9,9 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <None Include="..\DomainClass\appsettings.json" Link="appsettings.json">
+      	<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
       <PackageReference Include="Dapper" Version="2.1.89" />
       <PackageReference Include="Dapper.SqlBuilder" Version="2.1.89" />
       <PackageReference Include="Microsoft.Extensions.Configuration" Version="11.0.0-rc.3.26522.148" />
