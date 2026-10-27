@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using DomainClass;
+using Microsoft.Extensions.Configuration;
 using Runner;
 
 public static class Programm

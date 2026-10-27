@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 
-namespace Runner;
+namespace DomainClass;
 
 public class AnalyzeAppSettings(IConfiguration config)
 {

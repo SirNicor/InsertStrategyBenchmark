@@ -16,4 +16,10 @@
       <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="11.0.0-rc.3.26522.148" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\DomainClass\DomainClass.csproj" />
+      <ProjectReference Include="..\Generators\Generators.csproj" />
+      <ProjectReference Include="..\Strategies\Strategies.csproj" />
+    </ItemGroup>
+
 </Project>
