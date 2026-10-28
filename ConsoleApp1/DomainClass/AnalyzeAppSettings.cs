@@ -18,7 +18,5 @@ public static class AnalyzeAppSettings
         => new ConfigurationBuilder()
             .SetBasePath(AppContext.BaseDirectory)
             .AddJsonFile("appsettings.json", optional: false, reloadOnChange: false)
-            .AddEnvironmentVariables()          
             .Build();
-    
 }
