@@ -5,7 +5,7 @@ namespace Generators;
 
 internal static class XlsxWriter
 {
-    internal static void WriteXslxRow(IXLWorksheet sheet, int excelRow, AllDataDto r)
+    internal static void WriteXslxRow(IXLWorksheet sheet, int excelRow, AllDataTable r)
     {
         sheet.Cell(excelRow, 1).Value = r.TableOneId ?? string.Empty;
         sheet.Cell(excelRow, 2).Value = r.TableTwoId ?? string.Empty;

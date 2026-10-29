@@ -6,10 +6,10 @@ namespace Generators;
 
 public static class TestDataGenerator
 {
-    public static List<AllDataDto> CreateDataReturnEntity(ErrorRate numberOfErroneousEntries, int quantity)
+    public static List<AllDataTable> CreateDataReturnEntity(ErrorRate numberOfErroneousEntries, int quantity)
     {
         int percentError = (int)numberOfErroneousEntries;
-        var data = new AllDataDto[quantity];
+        var data = new AllDataTable[quantity];
         for (int i = 0; i < quantity; i++)
         {
             ulong state = DeterministicRandom.Mix((ulong)GeneratorConsts.DefaultSeed, (ulong)i);  

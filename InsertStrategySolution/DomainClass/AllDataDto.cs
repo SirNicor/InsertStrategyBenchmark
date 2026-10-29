@@ -15,5 +15,5 @@ public class AllDataDto
     public string? TableThreeIdTableTwoForeignKeyTest { get; set; }
     public string? TableThreeTestStringConstraint { get; set; }
     public string? ErrorMessage { get; set; }
-    public int IdStatus { get; set; }
-}   
+    public string Status { get; set; }
+}

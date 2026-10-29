@@ -45,13 +45,13 @@ internal static class DeterministicRandom
     }
 
 
-    internal static AllDataDto RowFactory(int i, ref ulong state)
+    internal static AllDataTable RowFactory(int i, ref ulong state)
     {
         int parentOne = Math.Max(0, i - (int)(Next(ref state) % 4));
         int parentTwo = Math.Max(0, i - (int)(Next(ref state) % 4));
         int parentThree = Math.Max(0, i - (int)(Next(ref state) % 4));
 
-        return new AllDataDto
+        return new AllDataTable
         {
             TableOneId = FormatId("T1", i),
             TableTwoId = FormatId("T2", i),

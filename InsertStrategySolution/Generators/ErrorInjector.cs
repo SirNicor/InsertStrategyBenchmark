@@ -14,7 +14,7 @@ internal static class ErrorInjector
         return type;
     }
     
-    internal static void ApplyError(AllDataDto row, ErrorType type)
+    internal static void ApplyError(AllDataTable row, ErrorType type)
     {
         switch (type)
         {
